@@ -1,0 +1,45 @@
+body {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background: cornflowerblue;
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    background: darkorange;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+main {
+    background: bisque;
+    padding: 12px;
+}
+
+article {
+    background: orchid;
+    padding: 12px;
+}
+
+footer {
+    background: cyan;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0;
+}
