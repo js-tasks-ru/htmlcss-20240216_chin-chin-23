@@ -4,13 +4,13 @@
 
 .accordion__item {
     border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 10px 0;
+    border-radius: 8px;
+    padding: 24px 32px;
+    margin-bottom: 8px;
 }
 
 .accordion__item:last-child {
-    margin: 10px 0 0;
+    margin-bottom: 0;
 }
 
 .accordion__summary {
@@ -18,9 +18,9 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Inter', serif;
 }
 
 .accordion__summary::-webkit-details-marker {
@@ -32,8 +32,8 @@
 }
 
 .accordion__text {
-    padding: 10px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    font-family: 'Inter', serif;
 }
