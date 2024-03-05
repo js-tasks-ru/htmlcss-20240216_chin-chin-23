@@ -1,12 +1,12 @@
-.accordion {
-    width: 730px;
-}
-
 .accordion__item {
     border: 1px solid #aaa;
     border-radius: 8px;
-    padding: 24px 32px;
+    padding: 24px;
     margin-bottom: 8px;
+}
+
+.accordion__item[open] {
+    padding-bottom: 32px;
 }
 
 .accordion__item:last-child {
@@ -36,4 +36,5 @@
     font-weight: 400;
     line-height: 24px;
     font-family: 'Inter', serif;
+    margin: 16px 0 0;
 }
