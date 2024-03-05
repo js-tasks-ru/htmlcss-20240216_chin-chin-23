@@ -14,6 +14,7 @@
     cursor: pointer;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     font-family: "Roboto", "Arial", sans-serif;
+    padding: 15px 56px;
 }
 
 .btn:disabled {
@@ -24,7 +25,6 @@
 .btn_primary {
     color: var(--white);
     background: var(--primary);
-    padding: 15px 66px;
 }
 
 .btn_primary:hover {
@@ -34,7 +34,6 @@
 .btn_secondary {
     color: var(--white);
     background: var(--secondary);
-    padding: 15px 56px;
 }
 
 .btn_secondary:hover {
@@ -45,7 +44,6 @@
     color: var(--black);
     background: none;
     border: 1px solid var(--grey-3);
-    padding: 15px 62px;
 }
 
 .btn_alternate:hover {
