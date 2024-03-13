@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 
-.histogram-text {
+.histogram__text {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 40px;
+    margin-bottom: 39px;
 }
 
 .orders {
@@ -19,17 +19,19 @@
     justify-content: space-between;
 }
 
-.orders-text {
+.orders__text {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.orders-text__details {
+.orders__text--details {
     color: var(--blue);
+    text-decoration: none;
+    margin-top: 3px
 }
 
-.orders-text__total {
+.orders__text--total {
     opacity: 0.8;
 }
 
@@ -37,27 +39,27 @@
     height: 50px;
     width: 100%;
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     gap: 1px;
 }
 
-.chart-item {
+.chart__item {
     width: 9px;
     background: var(--blue);
 }
 
-.chart-item__100 {
+.chart__item--100 {
     height: 100%;
 }
 
-.chart-item__70 {
+.chart__item--70 {
     height: 70%;
 }
 
-.chart-item__50 {
+.chart__item--50 {
     height: 50%;
 }
 
-.chart-item__30 {
+.chart__item--30 {
     height: 30%;
 }
