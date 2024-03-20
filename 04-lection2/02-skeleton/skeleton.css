@@ -1,0 +1,42 @@
+.skeleton {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 40px 32px 24px;
+    box-sizing: border-box;
+}
+
+.skeleton__header {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.header__info {
+    flex: 1;
+    align-self: center;
+}
+
+.header__avatar {
+    background: var(--grey-3);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+}
+
+.skeleton__rectangle {
+    height: 20px;
+    background: var(--grey-3);
+    margin-bottom: 8px;
+}
+
+.skeleton__rectangle_small {
+    width: 30%;
+}
+
+.skeleton__rectangle_medium {
+    width: 70%;
+}
+
+.skeleton__rectangle:last-child {
+    margin-bottom: 0;
+}
