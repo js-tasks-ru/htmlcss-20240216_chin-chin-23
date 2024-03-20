@@ -1,0 +1,38 @@
+.tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip__bubble {
+    display: none;
+    padding: 12px 21px;
+    border-radius: 10px;
+    background: var(--black, #212429);
+    width: 129px;
+    height: 45px;
+    color: var(--grey-2, #DDE2E5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip__bubble:before {
+    content: '';
+    border: 10px solid transparent;
+    border-bottom-color: #212429;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip__trigger:hover ~ .tooltip__bubble {
+    display: block;
+}
