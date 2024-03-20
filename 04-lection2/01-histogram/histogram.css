@@ -47,18 +47,18 @@
     background: var(--blue);
 }
 
-.chart__item--100 {
+.chart__item_100 {
     height: 100%;
 }
 
-.chart__item--70 {
+.chart__item_70 {
     height: 70%;
 }
 
-.chart__item--50 {
+.chart__item_50 {
     height: 50%;
 }
 
-.chart__item--30 {
+.chart__item_30 {
     height: 30%;
 }
